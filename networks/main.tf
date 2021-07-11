@@ -1,7 +1,7 @@
 module "address" {
   source       = "terraform-google-modules/address/google"
   version      = "3.0.0"
-  project_id   = practice-project-313404
+  project_id   = "practice-project-313404"
   region       = "europe-west1"
   address_type = "EXTERNAL"
   names = [
